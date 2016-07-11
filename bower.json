@@ -1,0 +1,23 @@
+{
+  "name": "risk-ontology",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nick Portokallidis <portokallidis@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/carre-project/risk-ontology",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "resolutions": {
+    "angular": "~1.4.8"
+  }
+}
