@@ -16,8 +16,7 @@
     "tests"
   ],
   "dependencies": {
-  },
-  "resolutions": {
-    "angular": "~1.4.8"
+    "jquery": "2",
+    "cytoscape": "2"
   }
 }
