@@ -15,8 +15,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "jquery": "2",
-    "cytoscape": "2"
-  }
+  "dependencies": {}
 }

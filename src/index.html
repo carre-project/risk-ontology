@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <title>CARRE Risk factor ontology visualization</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
@@ -24,9 +22,35 @@
   <body>
   
   <h1>CARRE Risk factor ontology visualization</h1>
-
-	<div id="carre"></div>
   
+<script type="text/javascript" language="javascript" src="GraphMLViewer.js"></script>
+
+<script language="javascript" type="text/javascript">
+
+if (!RunPlayer(
+    "width", "100%",
+    "height", "800px",
+    "graphUrl", "risks2.graphml",
+    "overview", "true",
+    "toolbar", "true",
+    "tooltips", "true",
+    "movable", "true",
+    "links", "true",
+    "linksInNewWindow", "true",
+    "viewport", "full"
+    )) {
+  // Flash Player is too old or not installed.
+  if (!InstallFlashUpdate("width", "100%", "height", "100%")) {
+    // Flash Player is too old for the updater or not installed.
+    // Place alternate content here:
+    document.write('This content requires the Adobe Flash Player Version 9.0.38 or higher. '
+        + '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>');
+  }
+}
+
+
+
+</script>
   
   
     <!--[if lt IE 10]>
